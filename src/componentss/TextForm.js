@@ -46,10 +46,10 @@ export default function TextForm(props) {
 </div>   
     </div>
     <div className="container">
-    <button className="btn btn-primary" onClick={upperC} >Convert into uppercase</button>
-   <button className="btn btn-primary mx-3" onClick={lowerC} >Convert into lowercase</button>
-   <button className="btn btn-primary mx-3" onClick={cleart} >Clear text</button>
-   <button className="btn btn-primary mx-3" onClick={spaces} >Delete extra spaces</button>
+    <button className="btn btn-primary my-1" onClick={upperC} >Convert into uppercase</button>
+   <button className="btn btn-primary mx-3 my-1" onClick={lowerC} >Convert into lowercase</button>
+   <button className="btn btn-primary mx-3 my-1" onClick={cleart} >Clear text</button>
+   <button className="btn btn-primary mx-3 my-1" onClick={spaces} >Delete extra spaces</button>
 
    {/* <button className="btn btn-primary mx-3" onClick={initC} >Initials capital</button> */}
     </div>
